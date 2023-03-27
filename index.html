@@ -7,11 +7,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>desserts</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <h1>Desserts !</h1>
+        <div class="menu container">
+            <a href="" class="logo">
+                <img src="./img/portada.jpg" alt2=""><br><br>
+                <input type="text" id="menu">
+                <label for="menu">
+                    <img src="./img/icono.png" alt="" class="menu-icono">
+                </label>
+                <nav class="navbar">
+                    <ul>
+                        <li>
+                            <a href="#">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="">Servicios</a>
+                        </li>
+                        <li>
+                            <a href="">Productos</a>
+                        </li>
+                        <li>
+                            <a href="">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+            </a>
+        </div>
+
+        <div class="header-content container">
+
+            <!--Uso de Swiper-->
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./img/chocolat.jpg" class="slider">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/postre.jpg" class="slider">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/tarta.jpg" class="slider">
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </header>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
